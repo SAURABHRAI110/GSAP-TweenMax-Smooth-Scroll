@@ -1,1 +1,2 @@
-# greensock baby
+Mouse Smooth Scroll
+Using GreenSock TweenMax

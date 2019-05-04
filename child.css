@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: qane-light;
+    src: url(font/QanelasSoftDEMO-UltraLight.otf);
+}
+
+@font-face {
+    font-family: qane-medium;
+    src: url(font/QanelasSoftDEMO-Medium.otf);
+}
+
+@font-face {
+    font-family: qane-bold;
+    src: url(font/QanelasSoftDEMO-ExtraBold.otf);
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: qane-light;
+    background: black;
+
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+
+
+.container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+}
+
+.section {
+    height: 90vh;
+    font-family: qane-medium;
+    font-size: 120px;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 15%;
+}
+
+
+
+.container>div:nth-child(1n) {
+    background-color: #BF7E8A;
+}
+
+.container>div:nth-child(2n) {
+    background-color: #F2B84B;
+}
+
+.container>div:nth-child(3n) {
+    background-color: #F28D52;
+}
+
+.container>div:nth-child(4n) {
+    background-color: #8C3623;
+}
+
+.container>div:nth-child(5n) {
+    background-color: #F2785C;
+}
+
+.viewport {
+
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
